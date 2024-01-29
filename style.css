@@ -1,0 +1,205 @@
+/* Reset some default browser styles */
+body, h2, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Add some styles for responsiveness */
+@media screen and (max-width: 600px) {
+    form {
+        margin: 20px 10px;
+    }
+}
+/* Reset some default browser styles */
+body, h2, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url('Royal\ Blue\ Textured\ Background\ by\ Shutterworx.jpg');
+     background-size: cover; /* You can adjust this property based on your preference */
+     background-repeat: no-repeat;
+     background-attachment: fixed; 
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #0327c946;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3613d4;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 140px;
+}
+
+button:hover {
+    background-color: #4d36b3;
+}
+
+/* Add some styles for responsiveness */
+@media screen and (max-width: 600px) {
+    form {
+        margin: 20px 10px;
+    }
+}
+.checkbox-group {
+    margin-bottom: 10px;
+}
+
+.checkbox-group input {
+    margin-right: 5px;
+}
+
+button {
+    background-color: white;
+    color: #0342c998;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #486db198;
+}
+
+  
+  .goback-container {
+    text-align: center;
+  }
+  
+  .goback-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: White;
+    color: #2980b9;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .goback-button:hover {
+    background-color: #2980b9;
+  }
+
+  .contact-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    position: center;
+    transition: background-color 0.3s ease;
+    margin-left: 650px;
+  }
+  
+  .contact-button::after {
+    content: '→'; /* Unicode right arrow character */
+    font-size: 20px;
+    margin-left: 10px;
+    position: absolute;
+    transition: margin-left 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .contact-button:hover::after {
+    margin-left: 15px;
+  }
+  
+  /* Add some styles for responsiveness */
+@media screen and (max-width: 600px) {
+    .contact-button {
+        display: inline-block;
+        padding: 15px 30px;
+        background-color: #3498db;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        position: center;
+        transition: background-color 0.3s ease;
+        margin-left: 100px;
+      }
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+
+    <div style="text-align: center;">
+        <img src="digc_logo.png" alt="Contact Image" style="max-width: 100%; height: auto;">
+    </div>
+
+    <h1 style="text-align: center; color: white;">DUNAMIS MPAPE MEDIA DEPARTMENT
+    </h1>
+
+   
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+        <input type="hidden" name="access_key" value="d6213adf-5b7a-4b96-82fd-3a40c9a31756">
+
+        <label for="fullName">(1). Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+
+        <label for="email">(2). Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number/Whatsapp No:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" placeholder="Enter 11-digit phone number" required>
+
+        
+
+        <label for="Date">(3). Date Joined Commission:</label>
+        <input type="Date" id="Date" name="Date" required>
+
+        <label for="message">(4). Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <label>(5). MemberShip Class:</label>
+        <div class="checkbox-group">
+           
+            <input type="checkbox" id="Maturity" name="Maturity">
+            <label for="Maturity">(a). Maturity</label>
+
+            <input type="checkbox" id="Foundation" name="Foundation">
+            <label for="Foundation">(b). Foundation</label>
+        </div><br>
+
+
+        <label>(6) Are You Born Again:</label>
+        <div class="checkbox-group">
+           
+            <input type="checkbox" id="Yes" name="Yes">
+            <label for="Yes">(a). Yes</label>
+
+            <input type="checkbox" id="No" name="No">
+            <label for="No">(b). Foundation</label>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <div class="goback-container">
+        <a href="index.html" class="goback-button">&larr; Go Back</a>
+      </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
